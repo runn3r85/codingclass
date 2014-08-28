@@ -1,4 +1,39 @@
-body {
-	font-size: 0.8em;
-	font-family: arial, sans-serif; 
+.page-navigation {
+  background-color: #00CC00;
+  height: 50px;
 }
+
+.page-navigation ul {
+  list-style: none;
+}
+
+.page-navigation ul li {
+  padding: 0 25px;
+  float: left;
+  line-height: 50px;
+}
+
+.page-navigation ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.page-navigation ul li a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
