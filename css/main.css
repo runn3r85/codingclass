@@ -25,7 +25,19 @@
   text-decoration: underline;
 }
 
+.index-title {
+  color: blue;
+}
 
+
+.favorite-links li a {
+  color: pink;
+}
+
+.favorite-links li a:hover {
+  color: green;
+  text-decoration: none;
+}
 
 
 
