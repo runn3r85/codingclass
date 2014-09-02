@@ -1,0 +1,18 @@
+1. Create a new page called week3.html
+2. Copy over from template.
+3. Have the following HTML
+    - h1 called "Week 3"
+    - paragraph of random copied text (google Lorem Ipsum)
+    - TWO anchor tags that link to google.com and cnn.com
+    - h3 tag with your name
+4. Create a new CSS file called week3.css in the CSS folder
+5. Link the week3.css file to the week3.html file.
+6. In the CSS file, give the h1 css for:
+    - underlined text
+    - color green
+7. In the CSS file, give the p tag
+    - padding of 20px
+    - color blue
+8. In the CSS file, give the anchor tag
+    - color red
+    - on hover, color yellow, and not underlined
