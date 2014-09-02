@@ -1,0 +1,9 @@
+1. Create a template.html file to hold your basic html
+2. Create a new index.html file with the following:
+    - Your full name in a headline tag
+    - Your Class in a smaller headline tag
+3. Add a horizontal rule.
+4. In an unordered list, put your 5 classes for this semester.
+5. Add an unordered list with your hobbies (at least 5).
+6. Add another horizontal rule.
+7. Add an achor tag to bring you to the top of the page.
