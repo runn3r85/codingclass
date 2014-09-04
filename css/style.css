@@ -1,5 +1,35 @@
-* {
-  margin: 0;
-  padding: 0;
-  color: red;
+.container {
+	width: 740px;
+	margin: auto;
 }
+
+.main-header {
+	height: 100px;
+	color: #FFF;
+	background: royalblue;
+}
+
+.main-content {
+	padding: 20px;
+	background: lightgray;
+}
+
+.main-footer {
+	height: 100px;
+	color: #FFF;
+	background: #222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
