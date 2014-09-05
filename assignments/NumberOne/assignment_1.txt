@@ -2,7 +2,7 @@ For assignment number 1, you need to complete the following by Wednesday, Septem
 
 1. Create a folder called assignments.
 2. In the assignments folder, create a folder called NumberOne.
-3. Within NumberOne, create a CSS folder (for CSS) and an index.html folder for your file.
+3. Within NumberOne, create a CSS folder (for CSS) and an index.html file.
 4. Look at the duplicate_me.png file in this folder.
 5. Recreate this image as a webpage. 
 	- Replace the image with a picture of yourself.
