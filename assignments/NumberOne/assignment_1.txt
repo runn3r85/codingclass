@@ -1,0 +1,7 @@
+For assignment number 1, you need to complete the following by Wednesday, September 10th.
+
+1. Look at the duplicate_me.png file in this folder.
+2. Recreate this image as a webpage. 
+	- Replace the image with a picture of yourself.
+	- Get the colors as close as possible.
+3. Extra credit for links that work and go to another similar page.
