@@ -1,7 +1,7 @@
 /#/#/# Assignment #2 Directions /#/#/#
 
 1. Choose an image for your project.
-2. Create a css folder, images folder, and index.html folder.
+2. Create a css folder, images folder, and index.html file.
 3. In the css folder, create a style.css file.
 4. You need to replicate the image you chose, filling in content that is relevant to you. Meaning you should personalize the words and images to match a theme. You can also change the colors. Remember to choose colors that complement each other. 
 5. This is due on Monday, September 22nd. Each day in class I will teach a new concept that will be needed in your project to finish it. If you are absent, it is your responsibility to see me or a classmate to catch up on what you missed.
