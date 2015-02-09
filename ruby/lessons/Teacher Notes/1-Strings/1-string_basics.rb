@@ -7,11 +7,12 @@ print "Hello World"
 print "Hello World\n"
 
 
-# Strings
+###### Strings #######
+
+# create a variable 'name' and assign it to a string with your name 
 
 
-
-# Make a string in that has quotes in the string
+# Make a string that has quotes in the string
 my_string = 'My favorite quote is: "Hello World"'
 
 # Make a string that has an apostrophe in the string
