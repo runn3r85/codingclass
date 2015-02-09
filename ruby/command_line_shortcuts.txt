@@ -1,0 +1,22 @@
+Here are some useful shorcuts:
+
+Change directory:
+cd
+
+List files/folder in current directory:
+ls
+
+Find your present working directory:
+pwd
+
+Create a file:
+touch [filename]
+
+Create a folder (directory):
+mkdir [name]
+
+Run a ruby file:
+ruby [name of file]
+
+Launch Interactive Ruby Console:
+irb
