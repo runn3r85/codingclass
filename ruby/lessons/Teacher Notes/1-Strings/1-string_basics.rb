@@ -20,3 +20,8 @@ my_other_string = "Mr. Barrette's Day"
 
 # Make a string that has BOTH
 yet_another_string = 'I heard someone say: "How\'s your day?"'
+
+# Make a string that has a variable inside.
+hello = "Hello World"
+message = "#{hello}, hope you have a good day!"
+puts message
