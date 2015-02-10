@@ -18,3 +18,7 @@ puts "Hello my name is #{full_name} and my age is #{age}"
 puts full_name + "," + age.to_s
 
 # What happens? Why?
+
+
+
+
