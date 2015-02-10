@@ -8,7 +8,8 @@ b = 3
 c = 6
 
 # Make 12
-
+puts a*b + c
+puts c + c
 
 # Make 13
 
