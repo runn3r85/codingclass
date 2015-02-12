@@ -3,11 +3,11 @@
 # Reminder of what we did the last lesson.
 
 if car_speed < speed_limit
-  puts "Print an appropriate message"
+  puts "You are under the speed limit!"
 end
 
 if car_speed > speed_limit
-  puts "Print an appropriate message"
+  puts "You are speeding! Slow down!"
 end
 
 # Is this the most efficient way of doing things?
@@ -17,9 +17,9 @@ end
 # the second is true. We can simplify this by saying:
 
 if car_speed < speed_limit
-  puts "Print an appropriate message"
+  puts "You are under the speed limit!"
 else
-  puts "Print an appropriate message"
+  puts "You are speeding! Slow down!"
 end
 
 # Create your own if/else statement using the current

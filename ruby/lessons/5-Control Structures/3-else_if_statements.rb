@@ -11,13 +11,7 @@ end
 # What happens if the car_speed is equal to 
 # the speed_limit? How can we account for that?
 
-if car_speed < speed_limit
-  puts "You are under the speed limit!"
-elsif car_speed == speed_limit
-  puts "You are going the speed limit!"
-else
-  puts "You are speeding! Slow down!"
-end
+
 
 # Create your own elsif statement using the current
 # year and your graduation year as variables.
