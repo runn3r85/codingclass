@@ -3,6 +3,9 @@ Here are some useful shorcuts:
 Change directory:
 cd
 
+Go up one directory:
+cd ../
+
 List files/folder in current directory:
 ls
 

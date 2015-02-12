@@ -7,8 +7,12 @@ a = 2
 b = 3
 c = 6
 
+def print_answer(string,expression)
+  puts "Answer for #{string}=" + expression.to_s
+end
+
 # Make 12
-puts a*b + c
+print_answer("a*b + c",a*b + c)
 puts c + c
 
 # Make 13
