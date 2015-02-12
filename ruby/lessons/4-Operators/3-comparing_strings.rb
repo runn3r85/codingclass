@@ -9,9 +9,15 @@ puts "a" > "A"
 # number, which you can find by calling the method
 # .ord
 
+puts "For a: #{"a".ord}"
+puts "For b: #{"b".ord}"
+puts "For A: #{"A".ord}"
 
+# Lowercase letters have a larger number than uppercase
+# Alphabetically, a is the smallest
 
 # For a string of multiple letters, the comparison
-# is done for each letter in the string, until false
-# is arrived, otherwise true
+# is done for first letter of the string.
+
+puts "aBt" > "aba"
 
