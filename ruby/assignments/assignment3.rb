@@ -1,3 +1,5 @@
+# Due Friday February 27th
+
 # Write a ruby program that performs the 
 # following actions:
 
