@@ -1,4 +1,4 @@
-# Due Friday February 27th
+# Due Monday March 2nd
 
 # Write a ruby program that performs the 
 # following actions:
