@@ -10,9 +10,9 @@
 
 def get_name
   print "What's your name? "
-  name = gets.chomp.downcase
+  name = gets.chomp
 
-  if name == "Mr. Barrette"
+  if name.downcase == "Mr. Barrette"
     puts "You are an awesome Ruby programmer!"
   else
     puts "Hi #{name}"
