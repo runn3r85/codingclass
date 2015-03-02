@@ -9,13 +9,13 @@
 # instance of the Hash class:
 
 item = Hash.new()
-puts item.inspect
+puts item
 
 # This is identical to how we built arrays.
 # Hashes can also be created by using curly braces:
 
 item = { "item" => "apple", "quantity" => 1 }
-puts item.inspect
+puts item
 
 # Notice this is similar to arrays with brackets []
 # The main difference between an array and hash is that
@@ -27,13 +27,13 @@ puts item.inspect
 
 item = { item: "apple", quantity: 1 }
 # :item => "apple" the same as item: "apple"
-puts item.inspect
+puts item
 
 # Hash keys can be almost any Ruby type. 
 # Here's an example of using symbols as hash keys:
 
 item[1] = "Grocery Store"
-puts item.inspect
+puts item
 
 # Hash keys can also be numbers. 
 # If we set the following hash key and value:
@@ -51,4 +51,4 @@ puts item.inspect
 # and the new value for said key:
 
 item["type"] = "Fiji"
-puts item.inspect
+puts item

@@ -5,7 +5,7 @@
 # We will continue with the hash from before:
 
 hash = { "item" => "apple", "quantity" => 1, "type" => "Gala" }
-puts hash.inspect
+puts hash
 
 # To return an array of the values in the hash, 
 # we can use the values method:
@@ -32,3 +32,9 @@ puts hash.has_value?(1)   # => true
 
 puts hash.values_at("quantity", "type").inspect
 # => [1, "Gala"]
+
+
+
+
+
+

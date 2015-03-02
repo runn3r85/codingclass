@@ -6,7 +6,7 @@
 # key => value
 
 hash = { "item" => "apple", "quantity" => 1, "type" => "Gala" }
-puts hash.inspect
+puts hash
 
 # To find out all of the different keys 
 # inside of the hash, we can use the keys method:
@@ -32,7 +32,7 @@ hash.store("calories", 100)
 
 # Reinspect the hash to see what it looks like now.
 
-puts hash.inspect
+puts hash
 
 # To remove a key from a hash, we use the delete method
 # and provide the key.
@@ -42,7 +42,7 @@ hash.delete("calories")
 
 # Reinspect the hash to see what it looks like now.
 
-puts hash.inspect
+puts hash
 
 # Two hashes are considered equal when 
 # they have the same keys and values:
