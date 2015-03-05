@@ -6,11 +6,7 @@
 # if they want the loop to continue by
 # entering y/n.
 
-answer = ""
-until answer == "n" do
-  print "Do you want this loop to continue? (y/n) "
-  answer = gets.chomp
-end
+
 
 # Here is the print_hello method from the while loop.
 
@@ -26,9 +22,3 @@ end
 # how many times they want to print hello
 # and exits if they enter a number greater than 5.
 
-answer = 0
-until answer >= 5
-  print "How many times do you want to print 'hello'? Enter a number greater than 5 to exit) "
-  answer = gets.chomp.to_i
-  print_hello(answer)
-end
