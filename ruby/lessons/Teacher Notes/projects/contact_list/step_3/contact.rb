@@ -1,7 +1,8 @@
-require "./phone_number"
-require "./address"
-
 class Contact
+  require "./phone_number"
+  require "./address"
+
+
   attr_writer :first_name, :last_name, :middle_name
   attr_reader :phone_numbers, :addresses
 
@@ -97,3 +98,14 @@ class Contact
     end
   end
 end
+
+contact = Contact.new
+contact.first_name = "Brandon"
+contact.last_name = "Barrette"
+contact.add_phone_number("Home", "123-456-7890")
+contact.add_phone_number("Work", "123-555-7890")
+contact.add_address("Work", "325 LaGrande Ave.", "", "San Francisco", "CA", "94112")
+
+puts contact.inspect
+contact.print_phone_numbers
+contact.print_addresses
