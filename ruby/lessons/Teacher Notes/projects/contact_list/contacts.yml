@@ -1,1 +1,17 @@
---- []
+---
+- !ruby/object:Contact
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    kind: Home
+    number: 415-555-9876
+  addresses:
+  - !ruby/object:Address
+    kind: Work
+    street_1: 325 LaGrande Ave.
+    street_2: ''
+    city: San Francisco
+    state: CA
+    postal_code: '94112'
+  first_name: Kelvin
+  middle_name: Q
+  last_name: Marquez

@@ -1,31 +1,32 @@
 # =========================
-# Building a Class
+# Initializing
 # =========================
 
 # Build a class called Name that gives 
 # the first name, middle name, last name, and title
-# of the person.
+# of the person. Require the title on initialize.
 
 class Name
+  def initialize(title)
+    @title = title
+  end
+
   def title
-    "Mr."
+    @title
   end
 
   def first_name
-    "First"
+    "Mickey"
   end
 
   def middle_name
-    "Middle"
+    "M."
   end
 
   def last_name
-    "Last"
+    "Mouse"
   end
 end
 
-name = Name.new
+name = Name.new("Mr.")
 puts name.title
-puts name.first_name
-puts name.middle_name
-puts name.last_name
