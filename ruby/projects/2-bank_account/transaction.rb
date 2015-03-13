@@ -1,5 +1,6 @@
 class Transaction
   attr_reader :description, :amount
+  # .description, .amount
 
   def initialize(description, amount)
     @description = description
