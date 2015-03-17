@@ -10,4 +10,8 @@ class BankAccount
     @transactions = []
   end
 
+  def deposit(description, amount)
+    Transaction.new(description, amount)
+  end
+
 end

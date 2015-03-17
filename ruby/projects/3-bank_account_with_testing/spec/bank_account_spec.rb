@@ -41,7 +41,33 @@ describe BankAccount do
     @bank_account.transactions.length.must_equal 0
     @bank_account.transactions.must_equal []
   end
+
+
+  describe "#deposit" do
+    before do
+      @bank_account = BankAccount.new("Barrette")
+    end
+
+    it "responds to the deposit method" do
+      @bank_account.must_respond_to('deposit')
+    end
+
+    it "creates a new transaction" do
+      @bank_account.deposit("Deposit", 100).must_be_instance_of(Transaction)
+    end
+
+    it "creates a new transaction with description" do
+      @bank_account.deposit("Deposit", 100).description.must_equal("Deposit")
+    end
+
+    it "creates a new transaction with amount" do
+      @bank_account.deposit("Deposit", 100).amount.must_equal(100)
+    end
+  end
 end
+
+
+
 
 
 
